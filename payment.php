@@ -23,17 +23,10 @@
             return urlParams.get(param);
         }
 
-        function showAlert(event) {
-            event.preventDefault();
-            alert("Payment has been done successfully!");
-            // Optionally, you can redirect the user to another page after the alert
-            // window.location.href = 'success.html';
-        }
 
         window.onload = function() {
             var amount = getQueryParam('amount');
             document.getElementById('amount').value = amount || '';
-            document.getElementById('paymentForm').addEventListener('submit', showAlert);
         }
     </script>
 </head>
