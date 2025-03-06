@@ -277,10 +277,10 @@
       document.getElementById("user-info-form").style.display = "none";
       document.getElementById("tracking-form").style.display = "block";
     }
-    while (!payment){
+    else{
       window.alert("Ensure payment is done")
+
     }
-    
   });
 
   document.getElementById("track-btn").addEventListener("click", async function() {
