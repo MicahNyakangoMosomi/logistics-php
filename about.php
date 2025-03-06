@@ -37,7 +37,7 @@
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="#index.html" class="logo d-flex align-items-center">
+      <a href="#index.php" class="logo d-flex align-items-center">
         <h1>Logis</h1>
       </a>
 
@@ -45,12 +45,12 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="pricing.html">Pricing</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a class="get-a-quote" href="get-a-quote.html">Get a Quote</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php" class="active">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="pricing.php">Pricing</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a class="get-a-quote" href="get-a-quote.php">Get a Quote</a></li>
         </ul>
       </nav>
       <!-- .navbar -->
@@ -76,7 +76,7 @@
       <nav>
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <li>About</li>
           </ol>
         </div>
@@ -441,7 +441,7 @@
     <div class="container">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-info">
-          <a href="index.html" class="logo d-flex align-items-center">
+          <a href="index.php" class="logo d-flex align-items-center">
             <span>Logis</span>
           </a>
           <p>For all your logistics needs, connect with us on our social media channels. Our team is here to assist you and ensure your shipments are delivered on time and with care. Follow us on Twitter, Facebook, Instagram, and LinkedIn to stay up-to-date on our services and special offers.</p>
@@ -456,9 +456,9 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="services.html">Services</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="about.php">About us</a></li>
+            <li><a href="services.php">Services</a></li>
             <li><a href="#">Terms of service</a></li>
             <li><a href="#">Privacy policy</a></li>
           </ul>
