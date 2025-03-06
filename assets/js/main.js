@@ -158,7 +158,8 @@ function initiatePlan(plan, amount) {
 }
 let payment = false;
 const payButton = document.getElementById("pay");
-payButton.addEventListener('click',()=>{
-  console.log("pay")
-  payment=true
+
+payButton.addEventListener('click', () => {
+  payment = true; // Update the variable correctly
+  console.log("pay", payment); // Log the updated value
 });
