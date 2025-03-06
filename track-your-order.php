@@ -134,7 +134,9 @@
         </div>
     
         <!-- MapLibre Container -->
-        <div id="map-container" style="width: 100%; height: 500px; display: none;"></div>
+        <div id="map-container" style="width: 100%; height: 500px; display: none;">
+
+        </div>
       </div>
     </section>
   </main><!-- End #main -->
@@ -265,14 +267,20 @@
 
   document.getElementById("user-form").addEventListener("submit", function(event) {
     event.preventDefault();
-    generatedTrackingId = "TRK" + Math.floor(100000 + Math.random() * 900000);
-    storedWarehouse = document.getElementById("warehouse").value.split(",");
-    storedDestination = document.getElementById("destination").value;
-    storedWeight = document.getElementById("weight").value;
+    if(payment){
+      generatedTrackingId = "TRK" + Math.floor(100000 + Math.random() * 900000);
+      storedWarehouse = document.getElementById("warehouse").value.split(",");
+      storedDestination = document.getElementById("destination").value;
+      storedWeight = document.getElementById("weight").value;
+      
+      document.getElementById("tracking-id").innerText = generatedTrackingId;
+      document.getElementById("user-info-form").style.display = "none";
+      document.getElementById("tracking-form").style.display = "block";
+    }
+    while (!payment){
+      window.alert("Ensure payment is done")
+    }
     
-    document.getElementById("tracking-id").innerText = generatedTrackingId;
-    document.getElementById("user-info-form").style.display = "none";
-    document.getElementById("tracking-form").style.display = "block";
   });
 
   document.getElementById("track-btn").addEventListener("click", async function() {

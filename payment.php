@@ -52,7 +52,7 @@
                             <input type="text" id="amount" class="form-control" name="amount"placeholder="Amount" readonly required>
                         </div>
                         <div class="container mt-3">
-                            <button type="submit" name="submit" value="submit" class="btn btn-success w-100">Proceed</button>
+                            <button type="submit" name="submit" value="submit" class="btn btn-success w-100" id="pay" >Proceed</button>
                         </div>
                     </form>
                 </div>

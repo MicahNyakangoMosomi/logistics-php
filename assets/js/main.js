@@ -156,3 +156,9 @@ function initiatePlan(plan, amount) {
   window.location.href = 'payment.php?plan=' + encodeURIComponent(plan) + '&amount=' + encodeURIComponent(amount);
 
 }
+let payment = false;
+const payButton = document.getElementById("pay");
+payButton.addEventListener('click',()=>{
+  console.log("pay")
+  payment=true
+});
