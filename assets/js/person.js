@@ -15,7 +15,7 @@ function saveUserData(event) {
     localStorage.setItem('people', JSON.stringify(people));
 
     alert("User registered successfully!");
-    window.location.href = 'signin.html';
+    window.location.href = 'signin.php';
 }
 
 function validateUser(event) {
@@ -30,7 +30,7 @@ function validateUser(event) {
     if (user) {
         alert("Login successful!");
         // Redirect to another page or perform other actions upon successful login
-        window.location.href = 'welcome.html';
+        window.location.href = 'welcome.php';
     } else {
         alert("Invalid username or password.");
     }
