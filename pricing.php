@@ -176,8 +176,8 @@
       <div class="row gy-4">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <div class="pricing-item">
-                  <h3>Free Plan</h3>
-                  <h4><sup>ksh</sup>0<span> / month</span></h4>
+                  <h3>Basic Plan</h3>
+                  <h4><sup>ksh</sup>1<span> / month</span></h4>
                   <ul>
                       <li><i class="bi bi-check"></i>Basic Tracking</li>
                       <li><i class="bi bi-check"></i>Basic Dashboard Access</li>
@@ -185,7 +185,7 @@
                       <li class="na"><i class="bi bi-x"></i> <span>Advanced Analytics and Reports</span></li>
                       <li class="na"><i class="bi bi-x"></i> <span>Priority Support</span></li>
                   </ul>
-                  <!--</a href="javascript:void(0);" class="buy-btn" onclick="initiatePlan('Free', 0)">Buy Now</a> -->
+                  </a href="javascript:void(0);" class="buy-btn" onclick="initiatePlan('Basic', 1)">Buy Now</a>
               </div>
           </div><!-- End Pricing Item -->
 
