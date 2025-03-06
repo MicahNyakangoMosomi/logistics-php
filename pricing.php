@@ -54,11 +54,11 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.php">Home</a></li>
-          <li><a href="about.php">About</a></li>
+        <li><a href="about.php">About</a></li>
           <li><a href="services.php">Services</a></li>
-          <li><a href="pricing.php" class="active">Pricing</a></li>
+          <li><a href="#"class="active">Pricing</a></li>
           <li><a href="contact.php">Contact</a></li>
+          <li><a href="track-your-order.php">Order</a></li>
           <li><a class="get-a-quote" href="get-a-quote.php">Get a Quote</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -128,7 +128,7 @@
             <h3>Business Plan</h3>
           </div>
           <div class="col-lg-3 d-flex align-items-center justify-content-center">
-            <h4><sup>ksh</sup>3,741<span> / month</span></h4>
+            <h4><sup>ksh</sup>20,741<span> / month</span></h4>
           </div>
           <div class="col-lg-3 d-flex align-items-center justify-content-center">
             <ul>
@@ -147,7 +147,7 @@
             <h3>Developer Plan</h3>
           </div>
           <div class="col-lg-3 d-flex align-items-center justify-content-center">
-            <h4><sup>ksh</sup>6,321<span> / month</span></h4>
+            <h4><sup>ksh</sup>50,321<span> / month</span></h4>
           </div>
           <div class="col-lg-3 d-flex align-items-center justify-content-center">
             <ul>
@@ -186,7 +186,7 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
               <div class="pricing-item">
                   <h3>Business Plan</h3>
-                  <h4><sup>ksh</sup>3,741<span> / month</span></h4>
+                  <h4><sup>ksh</sup>20,741<span> / month</span></h4>
                   <ul>
                       <li><i class="bi bi-check"></i>Basic Tracking</li>
                       <li><i class="bi bi-check"></i>Standard Dashboard Access</li>
@@ -194,14 +194,14 @@
                       <li><i class="bi bi-check"></i>Advanced Analytics and Reports</li>
                       <li class="na"><i class="bi bi-x"></i> <span>Priority Support</span></li>
                   </ul>
-                  <a href="javascript:void(0);" class="buy-btn" onclick="initiatePlan('Business', 3741)">Buy Now</a>
+                  <a href="javascript:void(0);" class="buy-btn" onclick="initiatePlan('Business', 20741)">Buy Now</a>
               </div>
           </div><!-- End Pricing Item -->
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
               <div class="pricing-item">
                   <h3>Developer Plan</h3>
-                  <h4><sup>ksh</sup>6,321<span> / month</span></h4>
+                  <h4><sup>ksh</sup>50,321<span> / month</span></h4>
                   <ul>
                       <li><i class="bi bi-check"></i>Basic Tracking</li>
                       <li><i class="bi bi-check"></i>Standard Dashboard Access</li>
@@ -209,7 +209,7 @@
                       <li><i class="bi bi-check"></i>Advanced Analytics and Reports</li>
                       <li><i class="bi bi-check"></i>Priority Support</li>
                   </ul>
-                  <a href="javascript:void(0);" class="buy-btn" onclick="initiatePlan('Developer', 6321)">Buy Now</a>
+                  <a href="javascript:void(0);" class="buy-btn" onclick="initiatePlan('Developer', 50321)">Buy Now</a>
               </div>
           </div><!-- End Pricing Item -->
       </div>

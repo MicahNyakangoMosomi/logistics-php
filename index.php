@@ -57,61 +57,29 @@
 
 <!-- Header -->
 <header id="header" class="header d-flex align-items-center fixed-top">
-  <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-    <a href="index.php" class="logo d-flex align-items-center">
-      <h1>Muhidin<span> Logistics</span></h1>
-    </a>
+      <a href="#index.php" class="logo d-flex align-items-center">
+        <h1>Logis</h1>
+      </a>
 
-    <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-    <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-    
-    <nav id="navbar" class="navbar">
-      <ul>
-        <li><a href="index.php" class="active">Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="services.php">Services</a></li>
-        <li><a href="pricing.php">Pricing</a></li>
-        
-        <ul class="nav">
-          <li class="nav-item Drivers">
-            <a class="nav-link" href="#">
-              <span>Shipping</span>
-              <i class="bi bi-chevron-down dropdown-indicator"></i>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Ship quickly &amp; simply</a></li>
-              <li class="dropdown">
-                <a class="dropdown-item" href="#">
-                  <span>Shipping tools</span>
-                  <i class="bi bi-chevron-down dropdown-indicator"></i>
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Bus</a></li>
-                  <li><a class="dropdown-item" href="#">Bikes</a></li>
-                  <li><a class="dropdown-item" href="#">Flight</a></li>
-                  <li><a class="dropdown-item" href="#">Cubs</a></li>
-                  <li><a class="dropdown-item" href="#">Taxis</a></li>
-                </ul>
-              </li>
-              <li><a class="dropdown-item" href="#">Get rates and transit times</a></li>
-              <li><a class="dropdown-item" href="#">Packaging and shipping supplies</a></li>
-              <li><a class="dropdown-item" href="#">Scheduling and managing pick-ups</a></li>
-            </ul>
-          </li>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="services.php">Services</a></li>
+          <li><a href="pricing.php">Pricing</a></li>
+          <li><a href="contact.php">Contact</a></li>
+          <li><a href="track-your-order.php">Order</a></li>
+          <li><a class="get-a-quote" href="get-a-quote.php">Get a Quote</a></li>
         </ul>
-        
-        <li><a href="contact.php">Contact</a></li>
-        <li><a class="get-a-quote" href="get-a-quote.php">Get a Quote</a></li>
-<<<<<<< HEAD
-=======
-        <li><a class="get-a-quote" href="track-your-order.php">Track Your Order</a></li>
->>>>>>> 9b92e8e (map)
-      </ul>
-    </nav><!-- .navbar -->
+      </nav>
+      <!-- .navbar -->
 
-  </div>
-</header><!-- End Header -->
+    </div>
+  </header><!-- End Header -->
 <!-- End Header -->
 
   <!--  Hero Section -->
