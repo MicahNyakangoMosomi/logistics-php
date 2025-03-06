@@ -106,10 +106,10 @@
 
         <div class="row gy-4 pricing-item" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-3 d-flex align-items-center justify-content-center">
-            <h3>Free Plan</h3>
+            <h3>Basic Plan</h3>
           </div>
           <div class="col-lg-3 d-flex align-items-center justify-content-center">
-            <h4><sup>ksh</sup>0<span> / month</span></h4>
+            <h4><sup>ksh</sup>1<span> / month</span></h4>
           </div>
           <div class="col-lg-3 d-flex align-items-center justify-content-center">
             <ul>
@@ -120,9 +120,7 @@
               <li class="na"><i class="bi bi-x"></i> <span>Priority Support</span></li>
             </ul>
           </div>
-          <div class="col-lg-3 d-flex align-items-center justify-content-center">
-            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-          </div>
+          
         </div><!-- End Pricing Item -->
 
         <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="200">
@@ -141,9 +139,7 @@
               <li class="na"><i class="bi bi-x"></i> <span>Priority Support</span></li>
             </ul>
           </div>
-          <div class="col-lg-3 d-flex align-items-center justify-content-center">
-            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-          </div>
+          
         </div><!-- End Pricing Item -->
 
         <div class="row gy-4 pricing-item mt-4" data-aos="fade-up" data-aos-delay="300">
@@ -162,9 +158,7 @@
               <li><i class="bi bi-check"></i>Priority Support</li>
             </ul>
           </div>
-          <div class="col-lg-3 d-flex align-items-center justify-content-center">
-            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
-          </div>
+          
         </div><!-- End Pricing Item -->
 
       </div>
@@ -185,7 +179,7 @@
                       <li class="na"><i class="bi bi-x"></i> <span>Advanced Analytics and Reports</span></li>
                       <li class="na"><i class="bi bi-x"></i> <span>Priority Support</span></li>
                   </ul>
-                  </a href="javascript:void(0);" class="buy-btn" onclick="initiatePlan('Basic', 1)">Buy Now</a>
+                  <a href="javascript:void(0);" class="buy-btn" onclick="initiatePlan('basic',1)">Buy Now</a>
               </div>
           </div><!-- End Pricing Item -->
 
