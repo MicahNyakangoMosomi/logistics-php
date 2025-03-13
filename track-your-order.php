@@ -53,12 +53,13 @@
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
-        <ul>
-        <li><a href="about.php">About</a></li>
-          <li><a href="services.php">Services</a></li>
+      <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="#">Services</a></li>
           <li><a href="pricing.php">Pricing</a></li>
           <li><a href="contact.php">Contact</a></li>
-          <li><a href="#" class="active" >Order</a></li>
+          <li><a href="track-your-order.php" class="active">Order</a></li>
           <li><a class="get-a-quote" href="get-a-quote.php">Get a Quote</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -134,9 +135,7 @@
         </div>
     
         <!-- MapLibre Container -->
-        <div id="map-container" style="width: 100%; height: 500px; display: none;">
-
-        </div>
+        <div id="map-container" style="width: 100%; height: 500px; display: none;"></div>
       </div>
     </section>
   </main><!-- End #main -->
@@ -225,6 +224,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 <!-- Include MapLibre and Nominatim API for Geocoding -->
 
@@ -266,20 +266,14 @@
 
   document.getElementById("user-form").addEventListener("submit", function(event) {
     event.preventDefault();
-    if(payment){
-      generatedTrackingId = "TRK" + Math.floor(100000 + Math.random() * 900000);
-      storedWarehouse = document.getElementById("warehouse").value.split(",");
-      storedDestination = document.getElementById("destination").value;
-      storedWeight = document.getElementById("weight").value;
-      
-      document.getElementById("tracking-id").innerText = generatedTrackingId;
-      document.getElementById("user-info-form").style.display = "none";
-      document.getElementById("tracking-form").style.display = "block";
-    }
-    else{
-      window.alert("Ensure payment is done")
-
-    }
+    generatedTrackingId = "TRK" + Math.floor(100000 + Math.random() * 900000);
+    storedWarehouse = document.getElementById("warehouse").value.split(",");
+    storedDestination = document.getElementById("destination").value;
+    storedWeight = document.getElementById("weight").value;
+    
+    document.getElementById("tracking-id").innerText = generatedTrackingId;
+    document.getElementById("user-info-form").style.display = "none";
+    document.getElementById("tracking-form").style.display = "block";
   });
 
   document.getElementById("track-btn").addEventListener("click", async function() {
@@ -323,6 +317,6 @@
     }
   });
 </script>
-<script src="assets/js/main.js"></script>
+<script src="assets/js/track-order.js"></script> 
 </body>
 </html>

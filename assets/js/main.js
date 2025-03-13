@@ -1,10 +1,3 @@
-/**
-* Template Name: Logis
-* Updated: Aug 30 2023 with Bootstrap v5.3.1
-* Template URL: https://bootstrapmade.com/logis-bootstrap-logistics-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
@@ -103,6 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
   /**
    * Initiate pURE cOUNTER
    */
+
   new PureCounter();
 
   /**
@@ -156,10 +150,3 @@ function initiatePlan(plan, amount) {
   window.location.href = 'payment.php?plan=' + encodeURIComponent(plan) + '&amount=' + encodeURIComponent(amount);
 
 }
-let payment = false;
-const payButton = document.getElementById("pay");
-
-payButton.addEventListener('click', () => {
-  payment = true; // Update the variable correctly
-  console.log("pay", payment); // Log the updated value
-});

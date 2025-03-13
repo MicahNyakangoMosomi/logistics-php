@@ -52,13 +52,14 @@
                             <input type="text" id="amount" class="form-control" name="amount"placeholder="Amount" readonly required>
                         </div>
                         <div class="container mt-3">
-                            <button type="submit" name="submit" value="submit" class="btn btn-success w-100" id="pay">Proceed</button>
+                            <button id="payment-btn" type="submit" name="submit" value="submit" class="btn btn-success w-100" id="pay-btn">Proceed</button>
                         </div>
                     </form>
                 </div>
             </div>
         </div>
     </main>
-    <script src="/assets/js/main.js"></script>  
+    <script src="assets/js/main.js"></script>  
+    <script src="assets/js/payment.js"></script>
 </body>
 </html>

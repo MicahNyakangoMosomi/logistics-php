@@ -53,7 +53,8 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-        <li><a href="about.php">About</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About</a></li>
           <li><a href="#" class="active">Services</a></li>
           <li><a href="pricing.php">Pricing</a></li>
           <li><a href="contact.php">Contact</a></li>
@@ -67,7 +68,6 @@
   <!-- End Header -->
 
   <main id="main">
-
     <!-- ======= Breadcrumbs ======= -->
     <div class="breadcrumbs">
       <div class="page-header d-flex align-items-center" style="background-image: url('assets/img/page-header.jpg');">
